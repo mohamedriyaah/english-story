@@ -1,0 +1,340 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: lightblue;
+}
+footer {
+        text-align: center;
+        background-color: rgb(79, 79, 79);
+        padding: 20px;
+        margin-bottom: 0px;
+}
+.footer-icon {
+    color: inherit;
+    margin-left: 10px;
+    margin-left: 10px;
+    color: white;
+}
+header {
+    position: absolute;
+    top: 30px;
+    bottom: 265px;
+    right: 0;
+    left: 0;
+    width: 1200px;
+    margin: auto;
+}
+header nav {
+    float: right;
+}
+nav ul {
+    list-style: none;
+}
+nav a {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: inherit;
+    font-weight: 800;
+  }
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  nav li:hover {
+      text-decoration: underline;
+  }
+  #home {
+      text-decoration: none;
+  }
+  #home:hover {
+      text-decoration: underline;
+  }
+#logo {
+    display: inline-block;
+}
+header h1 {
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: 45px;
+    vertical-align: top;
+    font-family: 'Sansita Swashed', cursive;
+}
+#hero {
+    text-align: center;
+    background: linear-gradient(rgba(11,207,150,0.7), rgba(11,207,150,0.7)), url('img/bg2.jpg');
+    padding-bottom: 110px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 241px;
+}
+.search-box {
+    position: absolute;
+    margin-top: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 700px;
+}
+.search-txt {
+    width: 600px;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    float: left;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+}
+#search {
+    font-size: 30px;
+}
+.search-btn {
+    color: #e84118;
+    float: right;
+    width: 65px;
+    height: 34px;
+    border-radius: 300px;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.search-btn:hover {
+    background: white;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+.ad {
+    padding-left: 514px;
+}
+#story {
+    text-align: left;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+#story:hover {
+    color: rgb(34, 160, 172);
+}
+#content {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+#video {
+    display: inline;
+    float: right;
+    margin-right:   80px;
+    background-color: rgb(85, 85, 163);
+    border-color: darkblue;
+    border: 10px;
+    border-radius: 20px;
+    transition: all 0.4s;
+    transition: transform .2s;
+}
+#video:hover {
+    border-radius: 0px 0px 0px 0px;
+    transform: scale(1.1);
+}
+#name-1 {
+    font-size: 45px;
+}
+.youtube {
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.thumb img {
+    width: 350px;
+    height: 250px;
+    border-radius: 40px;
+    object-fit: cover;
+    margin-left: 15px;
+    transition: all 0.4s;
+    object-position: right;
+    margin-top: 30px;
+}
+.thumb h1 {
+    font-size: 18px;
+    margin: 5px 0;
+    text-transform: uppercase;
+    margin-left: 62px;
+}
+.thumb a {
+    color: white;
+    background-color: rgb(155, 81, 224);
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    margin-left: 700px;
+    margin: auto;
+    border-radius: 10px;
+    display: inline;
+    margin-left: 130px;
+    transition: all 0.4s;
+    transition: transform .2s;
+    text-decoration: inherit;
+    
+}
+.thumb a:hover {
+    transform: scale(1.1);
+}
+.thumb img:hover {
+    object-position: center;
+}
+.thumb h1:hover {
+    color: rgb(85, 85, 163);
+}
+.thumb {
+    margin-top: 10px;
+    display: inline-block;
+    line-height: 40px;
+}
+#story-0 h1 {
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 25px;
+}
+#story-0 h1:hover {
+    color: palevioletred;
+}
+#story-0 img {
+    width: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-left: 10px;
+    transition: 0.4s;
+}
+#story-0 img:hover {
+    border-radius: 0;
+}
+.call-out-box {
+    padding: 1.25rem 1rem;
+    margin-bottom: 2rem;
+    clear: both;
+    padding-left: 20px;
+}
+.calloutbox-heading {
+    color: darkmagenta;
+    font-weight: 700;
+    font-size: 1.15rem;
+    margin-bottom: 0.75rem;
+}
+.calloutbox-description {
+    color: #000;
+    font-size: 1.175rem;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 1.25rem 1rem;
+    border-radius: 10px;
+    border: 1px solid grey;
+    border-left: 5px solid darkmagenta;
+    margin-bottom: 2rem;
+    clear: both;
+}
+::selection {
+    color: white;
+    background: rgb(173, 10, 124);
+  }
+#story-0 h2 {
+    color: darkmagenta;
+}
+#story-0 p {
+    line-height: 30px;
+    padding-right: 130px;
+}
+#title-0 {
+    margin-left: 100px;
+}
+.slider img {
+    margin-left: 145px;
+}
+@media (max-width: 768px) {
+    header nav {
+        float: left;
+        margin-top: 0px;
+        margin-left: 171px;
+        margin-bottom: 50px;
+    }
+    header h1 {
+        display: block;
+        margin-left: 226px;
+        line-height: 70%;
+    }
+    html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    header {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .thumb img {
+        width: 467px;
+    }
+    #hero {
+        margin-right: 0;
+    }
+    #image-slider {
+        width: 50px;
+    }
+    .search-box {
+        width: 445px;
+        margin-left: 10px;
+    }
+    .search-btn {
+        margin-top: -56px;
+        margin-left: 460px;
+    }
+    body {
+        width: 100%;
+
+    }
+    #image-slider {
+        visibility: hidden;
+    }
+    #content {
+        margin-top: -97px;
+    }
+    #search {
+        margin-right: -30px;
+        position: relative;
+    }
+
+}
+@media (max-width: 1200px) {
+    #video {
+        margin-top: -80px;
+    }
+}
+@media (max-width: 425px) {
+    header, #content {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .thumb {
+        width: 30px;  
+    }
+}
