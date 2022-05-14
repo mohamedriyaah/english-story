@@ -70,7 +70,7 @@ header h1 {
 }
 .search-box {
     position: absolute;
-    margin-top: 60px;
+    margin-top: 38px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -261,80 +261,100 @@ button {
     margin-left: 145px;
 }
 @media (max-width: 768px) {
-    header nav {
-        float: left;
-        margin-top: 0px;
-        margin-left: 171px;
-        margin-bottom: 50px;
-    }
-    header h1 {
-        display: block;
-        margin-left: 226px;
-        line-height: 70%;
-    }
     html,body {
         width: 100%;
-        height: 100%;
         margin: 0;
         padding: 0;
         overflow-x: hidden;
+        position: relative;
     }
-    header {
-        width: 100%;
-        padding-right: 20px;
-        padding-left: 20px;
-        box-sizing: border-box;
-        margin: auto;
-        margin-top: 10px;
-    }
-    .thumb img {
-        width: 467px;
-    }
-    #hero {
-        margin-right: 0;
-    }
-    #image-slider {
-        width: 50px;
+    nav ul {
+        margin-right: 468px;
+        margin-top: 31px;
     }
     .search-box {
-        width: 445px;
-        margin-left: 10px;
+        margin-top: -866px;
+    }
+    #video {
+        margin-top: -69px;
+    }
+} 
+@media (max-width: 425px) {
+    html,body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        position: relative;
+    }
+    header h1 {
+        margin-left: 61px;
+    }
+    .search-box {
+        width: 276px;
+        margin-top: -1201px;
     }
     .search-btn {
-        margin-top: -56px;
-        margin-left: 460px;
-    }
-    body {
-        width: 100%;
-
+        margin-top: 26px;
     }
     #image-slider {
         visibility: hidden;
     }
+    nav ul {
+        margin-top: 20px;
+        margin-right: 823px;
+        text-align: center;
+    }
     #content {
-        margin-top: -97px;
+        margin-top: -362px;
     }
     #search {
-        margin-right: -30px;
-        position: relative;
+        margin-bottom: 53px;
     }
-
-}
-@media (max-width: 1200px) {
+    #story {
+        width: 20px;
+    }
     #video {
-        margin-top: -80px;
+        margin-top: -73px;
+    }
+    .youtube {
+        margin-left: 1px;
+        margin-top: 188px;
+        width: 423px;
     }
 }
-@media (max-width: 425px) {
-    header, #content {
-        width: 100%;
-        padding-right: 20px;
-        padding-left: 20px;
-        box-sizing: border-box;
-        margin: auto;
-        margin-top: 10px;
+@media (max-width: 375px) {
+    header h1 {
+        margin-left: 41px;
     }
-    .thumb {
-        width: 30px;  
+    nav ul {
+        margin-right: 838px;
+    }
+}
+@media (max-width: 320px) {
+    header h1 {
+        margin-left: 13px;
+    }
+    nav ul {
+        margin-right: 907px;
+        
+    }
+    #search {
+        font-size: large;
+    }
+    #content {
+        margin-top: -291px;
+    }
+    .search-box {
+        margin-top: -1224px;
+    }
+    #video {
+        margin-right: 31px;
+    }
+    #story {
+        font-size: 25px;
+    }
+    .youtube {
+        width: 325px;
     }
 }
